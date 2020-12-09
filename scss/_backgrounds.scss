@@ -1,0 +1,38 @@
+@import 'variables';
+
+
+.fondo {
+	background-image: $background2;	
+    display: block; 
+    background-color: hsla(0,0%,0%,0.4); 
+    background-blend-mode: overlay; 
+    background-repeat: no-repeat; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fondo1 {
+	background-color: $primary;
+	background-image: $background1;
+    background-color: hsla(0,0%,0%,0.4); 
+    background-blend-mode: overlay;  
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fondo2 {
+    background-color: $black;
+}
+
+.fondo3 {
+	background-image: $background3;
+    display: block; 
+    background-color: hsla(0,0%,0%,0.4); 
+    background-blend-mode: overlay; 
+    background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment: fixed;
+
+}

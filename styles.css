@@ -348,9 +348,14 @@ footer {
 
 #gridFotos {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(6, 16%);
   grid-template-areas: 
   "header nav nav"
+  "titulo titulo titulo"
+  ". carrousel ."
+  "titulo titulo titulo"
+  "video video video"
+  "footer footer footer"
 
 }
 

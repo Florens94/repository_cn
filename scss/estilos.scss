@@ -1,41 +1,170 @@
 /*VARIABLES*/
-$primary: #FFD700;
-$secondary: #9354b6;
-$yellow: #ffb873;
-$black: #000000;
-$white: #FFFFFF;
-$font-primary: bebas neue, sans-serif;
-$font-secondary: 'Oswald', sans-serif;
-$background1:url(images/fondo1.png);
-$background2:url(images/fondo2.png);
-$background3:url(images/fondo3.png); 
-
-
+@import 'variables';
 
 /*GENERALES*/
-ul {
-    li{
-        color: $primary;
-        a{ 
-            color: $primary;
-            :hover{
-             text-decoration: none;
-            color: $secondary;
-        }
-            
+@import 'components';
+@import 'layout';
+@import 'backgrounds';
 
-        }
-    }
+
+/*INDEX*/
+
+.titulosGrandes {
+	color: $secondary;
+	font-family: bebas neue, sans-serif;
+	text-align: center;
+	font-size: 65px;
+	text-shadow: -2px -2px $black;
+    animation-duration: 4s;
+	animation-name: inicio;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
 }
 
+@keyframes inicio {
+	0% {
+		opacity: 1;
+		color: $secondary;
+	}
+
+	50% {
+		opacity: 1;
+		color: $primary;
+	}
+	100% {
+		opacity: 1;
+		color:$secondary;
+	}
+}
+
+.parrafos1 {
+    font-family:$font-secondary;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+
+}
 
 
 
 /*SERVICIOS*/
 
+
+.titulosDerecha {
+	font-family: $font-primary;
+	font-size: 45px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	color: $black;
+	text-align: right;
+	text-shadow: $black, 2px, 20px;
+	background-color: $primary;
+	width: 240px;
+	height: 50px;
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s
+
+}
+
+@keyframes aparecer {
+	0% {
+        opacity: 1;
+        color: $black;
+        background-color: $primary;
+	}
+	50% {
+        opacity: 1;
+        color: $secondary;
+		background-color: $black;
+	}
+	100% {
+        opacity: 1;
+        color: $black;
+        background-color: $primary;
+
+	}
+
+}
+.parrafos2 {
+	font-family: $font-secondary;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: $white;
+	text-align: left;
+	text-transform: uppercase;
+	content: 100px, 200px;
+    height: 100px;
+    width: 600px;
+    padding: 30px 20px;
+    margin: 2px 3px;
+}
+
 /*PORTFOLIO*/
 
+
+.titulosPorfolio {
+
+	font-family: $font-primary;
+	font-size: 34px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	background-color: #9354b6;
+	height: 40px;
+	width: auto;
+	margin: 30px;
+}
+
+
+
 /*PRESUPUESTO*/
+
+.fondo {
+	background-image:$background2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.titulo {
+	color: $secondary;
+	font-family:$font-primary;
+	text-align: center;
+	font-size: 45px;
+    stroke: 2px, black;
+	position: relative;
+}
+
+.titulos {
+	font-family: bebas neue, sans-serif;
+	font-size: 34px;
+	font-weight: normal;
+	text-align: left;
+	letter-spacing: 3px;
+	color: #9354b6;
+
+}
+
+.parrafos2 {
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	text-align: left;
+	text-transform: uppercase;
+	content: 100px, 200px;
+    height: 100px;
+    width: 600px;
+    padding: 30px 20px;
+    margin: 2px 3px;
+}
+
+
+
 
 /*NOSOTROS*/
 

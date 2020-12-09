@@ -1,0 +1,237 @@
+
+@import 'variables';
+
+#gridServicios {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 10% 8% 22% 20% 20% 20%;
+	grid-template-areas: 
+	"header nav nav"
+	"servicio . ."
+	"foto . . "
+	"foto . . "
+	"foto . ."
+	"footer footer footer"
+}
+
+.servicio {
+	grid-area:servicio;
+}
+
+.foto {
+	grid-area:foto;
+}
+
+header {
+	grid-area: header;
+}
+
+nav {
+	grid-area: nav;
+}
+
+
+#gridNosotros {
+	display: grid;
+	grid-template-areas: 
+	"header . nav nav nav nav"
+	". . . nosotros . ."
+	". integrante1 . integrante2 . integrante3"
+	". integrante4 . integrante5 . ."
+	"footer footer footer footer footer footer";
+	grid-template-columns: repeat(6, 16%);
+	grid-template-rows: 80px 80px 200px 200px 300px ;
+	grid-row-gap: 100px;
+    grid-column-gap: 10px;
+    justify-content: center;
+}
+
+.nosotros {
+	grid-area: nosotros;
+}
+
+.integrante1 {
+	grid-area: integrante1;
+	font-family: bebas neue, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 3px;
+	color: $black;
+	background-color: $primary;
+	width: 140px;
+	content: 400px;
+	padding: 10px;
+	margin:100px 100px 20px 10px;
+}
+
+.integrante2 {
+	grid-area: integrante2;
+	font-family: bebas neue, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 3px;
+	color: $black;
+	background-color: $primary;
+	width: 200px;
+	content: 400px;
+	padding: 10px;
+	margin:100px 80px 20px 6px;
+
+}
+
+.integrante3 {
+	grid-area: integrante3;
+	font-family: bebas neue, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 3px;
+	color: $black;
+	background-color: $primary;
+	width: 140px;
+	content: 400px;
+	padding: 10px;
+	margin:100px 100px 20px 10px;
+}
+
+.descripcion1 {
+
+	text-decoration: none;
+	font-family: bebas neue, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px; 
+	word-spacing: 7px;
+	color: #FFFFFF;
+    width: 130px;
+    padding: 30px 0px;
+    margin: 2px 0px;
+	text-align: center;
+}
+
+.descripcion2 {
+
+	text-decoration: none;
+	font-family: bebas neue, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px; 
+	word-spacing: 7px;
+	color: #FFFFFF;
+    width: 130px;
+    padding: 30px 0px;
+    margin: 2px 0px;
+	text-align: center;
+}
+.descripcion3 {
+	text-decoration: none;
+	font-family: bebas neue, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px; 
+	word-spacing: 7px;
+	color: #FFFFFF;
+    width: 130px;
+    padding: 30px 0px;
+    margin: 2px 0px;
+	text-align: center;
+}
+
+.integrante4 {
+	grid-area: integrante4;
+	font-family: bebas neue, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 3px;
+	color: $black;
+	background-color: $primary;
+	width: 140px;
+	height: 80px;
+	content: 400px;
+	padding: 10px;
+	margin:2px 100px 20px 200px;
+}
+
+.integrante5 {
+	grid-area: integrante5;
+	font-family: bebas neue, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 3px;
+	color: $black;
+	background-color: $primary;
+	width: 140px;
+	height: 80px;
+	content: 400px;
+	padding: 10px;
+	margin:2px 100px 20px 200px;
+}
+
+
+.descripcion4 {
+
+	text-decoration: none;
+	font-family: bebas neue, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px; 
+	word-spacing: 7px;
+	color: #FFFFFF;
+    width: 130px;
+    padding: 30px 0px;
+    margin: 2px 0px;
+	text-align: center;
+}
+
+.descripcion5 {
+
+	text-decoration: none;
+	font-family: bebas neue, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px; 
+	word-spacing: 7px;
+	color: #FFFFFF;
+    width: 130px;
+    padding: 30px 0px;
+    margin: 2px 0px;
+	text-align: center;
+}
+
+
+
+#gridSumate {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: 100px 700px 300px ;
+	grid-template-areas: 
+	"header  nav"
+	"contenidoT  form"
+	"footer footer";
+}
+
+.contenidoT {
+	grid-area: contenidoT;
+	font-family: bebas neue, sans-serif;
+	font-size: 34px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	color: #9354b6;
+	height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    margin: 200px 20px 20px 100px;
+
+
+}
+
+.contenidoP {
+	grid-area: contenidoT;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	text-transform: uppercase;
+    height: 300px;
+    width: 500px;
+    padding: 3px 25px;
+    margin: 10px 20px 20px 100px;
+
+}
