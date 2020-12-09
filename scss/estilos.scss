@@ -1,0 +1,41 @@
+/*VARIABLES*/
+$primary: #FFD700;
+$secondary: #9354b6;
+$yellow: #ffb873;
+$black: #000000;
+$white: #FFFFFF;
+$font-primary: bebas neue, sans-serif;
+$font-secondary: 'Oswald', sans-serif;
+$background1:;
+$background2:;
+$background3:; 
+
+
+
+/*GENERALES*/
+ul {
+    li{
+        color: $primary;
+        a{ 
+            color: $primary;
+            :hover{
+             text-decoration: none;
+            color: $secondary;
+        }
+            
+
+        }
+    }
+}
+
+/*INDEX*/
+
+/*SERVICIOS*/
+
+/*PORTFOLIO*/
+
+/*PRESUPUESTO*/
+
+/*NOSOTROS*/
+
+/*SUMATE*/
