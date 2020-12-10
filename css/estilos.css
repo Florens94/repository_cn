@@ -54,10 +54,10 @@ footer {
   flex-wrap: nowrap;
   padding-top: 40px; }
 
-.flex-item a {
+.flex-item li, a {
   font-family: bebas neue, sans-serif;
   font-size: 17px;
-  text-decoration: none;
+  text-decoration-style: none;
   letter-spacing: 2px;
   word-spacing: 7px;
   padding: 5px;
@@ -97,12 +97,7 @@ footer {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 10% 8% 22% 20% 20% 20%;
-  grid-template-areas: "header nav nav"
- "servicio . ."
- "foto . . "
- "foto . . "
- "foto . ."
- "footer footer footer"; }
+  grid-template-areas: "header nav nav" "servicio . ." "foto . . " "foto . . " "foto . ." "footer footer footer"; }
 
 .servicio {
   grid-area: servicio; }
@@ -119,11 +114,7 @@ nav {
 /*NOSOTROS*/
 #gridNosotros {
   display: grid;
-  grid-template-areas: "header . nav nav nav nav"
- ". . . nosotros . ."
- ". integrante1 . integrante2 . integrante3"
- ". integrante4 . integrante5 . ."
- "footer footer footer footer footer footer";
+  grid-template-areas: "header . nav nav nav nav" ". . . nosotros . ." ". integrante1 . integrante2 . integrante3" ". integrante4 . integrante5 . ." "footer footer footer footer footer footer";
   grid-template-columns: repeat(6, 16%);
   grid-template-rows: 80px 80px 200px 200px 300px;
   grid-row-gap: 100px;
@@ -270,9 +261,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: 100px 700px 300px;
-  grid-template-areas: "header  nav"
- "contenidoT  form"
- "footer footer"; }
+  grid-template-areas: "header  nav" "contenidoT  form" "footer footer"; }
 
 .contenidoT {
   grid-area: contenidoT;
