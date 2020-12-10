@@ -24,13 +24,14 @@
     
 
 ul {
+
     li{
         color: $primary;
         a{ 
             color: $primary;
-            a hover{
-             text-decoration: none;
-            color: $secondary;
+            a:hover{
+              text-decoration: none;
+              color: $secondary;
         }
             
 
@@ -39,28 +40,25 @@ ul {
 }
     
 
-form {
-	grid-area:form;
-	text-align: center;
-	color: $white;
-	font-family: $primary;
-	font-size: 18px;
-	text-shadow: -2px -2px 1px $black, 2px 1px 1px $black, -2px 1px 1px $black, 2px -1px 1px $black;
-	letter-spacing: 1px;
-	word-spacing: 2px;
-    height: 100px;
-    width: 600px;
-    margin: 100px 10px 500px 2px;
 
+
+.titulo {
+	color: $secondary;
+	font-family: $font-primary;
+	text-align: center;
+	font-size: 45px;
+	stroke: 2px, black;
+	position: relative;
 }
 
 
 footer {
+    grid-area: footer;
 	font-family: $font-primary;
 	color: $black;
 	text-align: center;
-	background-color: $primary;
-    content: 80px, 400px;
+    background-color: $primary;
+    content: 80px 400px;
 	padding: 700px,200px;
 	border: solid 20px 10px $primary;
 	margin: 200px 0px 0px 0px;

@@ -11,7 +11,7 @@
 
 .titulosGrandes {
 	color: $secondary;
-	font-family: bebas neue, sans-serif;
+	font-family:$font-primary;
 	text-align: center;
 	font-size: 65px;
 	text-shadow: -2px -2px $black;
@@ -132,34 +132,26 @@
 	background-attachment: fixed;
 }
 
-.titulo {
-	color: $secondary;
-	font-family:$font-primary;
-	text-align: center;
-	font-size: 45px;
-    stroke: 2px, black;
-	position: relative;
-}
 
 .titulos {
-	font-family: bebas neue, sans-serif;
+	font-family:$font-primary;
 	font-size: 34px;
 	font-weight: normal;
 	text-align: left;
 	letter-spacing: 3px;
-	color: #9354b6;
+    color:$secondary;
+    margin-left: 50px;
 
 }
 
 .parrafos2 {
-	font-family: 'Oswald', sans-serif;
-	color: #FFFFFF;
+	font-family: $font-secondary;
+	color:$white;
 	text-align: left;
 	text-transform: uppercase;
-	content: 100px, 200px;
     height: 100px;
     width: 600px;
-    padding: 30px 20px;
+    padding: 40px 40px;
     margin: 2px 3px;
 }
 
