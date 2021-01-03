@@ -36,21 +36,17 @@ nav {
 #gridNosotros {
 	display: grid;
 	grid-template-areas: 
-	"header . nav nav nav nav"
-	". . . nosotros . ."
+	"header . . nav nav nav"
 	". integrante1 . integrante2 . integrante3"
 	". integrante4 . integrante5 . ."
 	"footer footer footer footer footer footer";
-	grid-template-columns: repeat(6, 16%);
-	grid-template-rows: 80px 80px 200px 200px 300px ;
+	grid-template-columns: repeat (6, 16%);
+	grid-template-rows: 100px 200px 200px 40px ;
 	grid-row-gap: 100px;
     grid-column-gap: 10px;
     justify-content: center;
 }
 
-.nosotros {
-	grid-area: nosotros;
-}
 
 .integrante1 {
 	grid-area: integrante1;
@@ -64,7 +60,7 @@ nav {
 	width: 140px;
 	contain: 300px;
 	padding: 10px;
-	margin:100px 100px 10px 10px;
+	margin:100px 80px 10px 10px;
 }
 
 .integrante2 {
@@ -203,12 +199,14 @@ nav {
 /*SUMATE*/
 #gridSumate {
 	display: grid;
-	grid-template-columns: repeat(2, 50%);
-	grid-template-rows: 100px 700px 300px ;
+	grid-template-columns: 30% 30% 40%;
+	grid-template-rows: 100px 100px 100px 300px 300px ;
 	grid-template-areas: 
-	"header  nav"
-	"contenidoT  form"
-	"footer footer";
+	"header . nav"
+	". contenidoT . "
+	". contenidoP ."
+	". form . "
+	"footer footer footer";
 }
 
 .contenidoT {
@@ -231,10 +229,10 @@ nav {
 	font-family: $font-secondary;
 	color: $white;
 	text-transform: uppercase;
-    height: 300px;
+    height: 100px;
     width: 500px;
     padding: 3px 25px;
-    margin: 10px 20px 20px 100px;
+    margin: 10px 20px 20px 80px;
 
 }
 
@@ -249,6 +247,6 @@ form {
 	word-spacing: 2px;
     height: 100px;
     width: 600px;
-    margin: 100px 10px 500px 2px;
+    margin: 80px 10px 500px 2px;
 
 }
