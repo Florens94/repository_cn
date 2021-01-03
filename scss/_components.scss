@@ -29,11 +29,11 @@ ul {
         color: $primary;
         a{ 
             color: $primary;
-            a:hover{
-              text-decoration: none;
-              color: $secondary;
-        }
             
+            :hover{
+
+            text-decoration: none;
+            }
 
         }
     }
