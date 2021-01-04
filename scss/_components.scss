@@ -24,17 +24,21 @@
     
 
 ul {
+    text-decoration-style: none;
+    color: $primary;
 
     li{
+        text-decoration-style: none;
         color: $primary;
-        a{ 
-            color: $primary; 
-            :hover{
-            text-decoration-style: none;
+        a {color: $primary;} 
+            a:hover {
+                color: $yellow;
+                text-decoration-style: none;
             }
-
-        }
-    }
+            a:link { 
+                text-decoration: none;
+            } 
+    }    
 }
     
 
