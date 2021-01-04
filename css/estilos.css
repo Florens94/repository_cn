@@ -24,7 +24,7 @@ ul li {
   ul li a {
     color: #FFD700; }
     ul li a :hover {
-      text-decoration: none; }
+      text-decoration-style: none; }
 
 .titulo {
   color: #9354b6;
@@ -69,7 +69,7 @@ ul li {
   ul li a {
     color: #FFD700; }
     ul li a :hover {
-      text-decoration: none; }
+      text-decoration-style: none; }
 
 .titulo {
   color: #9354b6;
@@ -323,6 +323,102 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 576px) {
+  #gridServicios {
+    display: inline; }
+  .flexPadre {
+    flex-direction: column; }
+  .flex-item li, a {
+    font-size: 15px;
+    padding: 0px; }
+  header {
+    flex-direction: column; }
+  body {
+    flex-direction: column; }
+  .titulosGrandes {
+    font-size: 18px;
+    width: 350px;
+    text-align: center; }
+  .parrafos1 {
+    font-size: 12px;
+    text-align: center;
+    width: 450px;
+    margin: auto; }
+  #gridPresupuesto {
+    display: block; }
+  .parrafos2 {
+    width: 350px;
+    margin: 0px; }
+  .titulosDerecha {
+    font-size: 18px;
+    width: 350px;
+    text-align: center; }
+  #gridNosotros {
+    display: inline; }
+  .integrante1,
+  .integrante2,
+  .integrante3 {
+    font-family: bebas neue, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #000000;
+    background-color: #FFD700;
+    width: 500px; }
+  .integrante4,
+  .integrante5 {
+    font-family: bebas neue, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #000000;
+    background-color: #FFD700;
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    margin: 80px 10px 80px 10px; }
+  .descripcion1,
+  .descripcion2,
+  .descripcion3 {
+    font-family: bebas neue, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #FFFFFF;
+    width: 400px;
+    text-align: center; }
+  .descripcion4,
+  .descripcion5 {
+    text-decoration: none;
+    font-family: bebas neue, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #FFFFFF;
+    width: 500px;
+    text-align: center; }
+  #gridSumate {
+    display: block; }
+  .contenidoT {
+    font-family: bebas neue, sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #9354b6;
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    margin: auto; }
+  .contenidoP {
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 300px;
+    text-align: left; } }
 
 /*INDEX*/
 .titulosGrandes {

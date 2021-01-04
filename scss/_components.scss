@@ -28,11 +28,9 @@ ul {
     li{
         color: $primary;
         a{ 
-            color: $primary;
-            
+            color: $primary; 
             :hover{
-
-            text-decoration: none;
+            text-decoration-style: none;
             }
 
         }
